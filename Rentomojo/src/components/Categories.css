@@ -1,0 +1,52 @@
+
+.workkarjabkl {
+    margin-left: 0; /* Ensure no conflicting styles are here */
+  }
+  
+  .Catcard {
+    margin-left: 0; /* Ensure no conflicting styles are here */
+  }
+  
+  @media (max-width: 768px) {
+    .Catcard {
+      margin-left: 1.5em;
+      margin-right: 1.5em;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .workkarjabkl {
+      margin-left: 1.5em;
+      justify-content: center;
+    }
+    .Catcard {
+      margin-left: 1em;
+      margin-right: 1em;
+    }
+    .Catcard .fa-icon {
+      font-size: 2x; /* Adjust icon size for small screens */
+    }
+    .Catcard .text {
+      font-size: sm; /* Adjust font size for small screens */
+    }
+  }
+  
+  @media (min-width: 481px) and (max-width: 767px) {
+    .workkarjabkl {
+      margin-left: 1.5em;
+      display: flex;
+      justify-content: center;
+      width: 100%; /* Adjusted to be responsive */
+    }
+    .Catcard {
+      margin-left: 1em;
+      margin-right: 1em;
+    }
+    .Catcard .fa-icon {
+      font-size: 2x; /* Adjust icon size for tablet screens */
+    }
+    .Catcard .text {
+      font-size: md; /* Adjust font size for tablet screens */
+    }
+  }
+  

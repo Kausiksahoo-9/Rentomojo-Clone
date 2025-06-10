@@ -1,0 +1,266 @@
+.carousel-container {
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 20px 0;
+}
+
+.carousel .control-dots {
+  display: none;
+}
+
+.carousel-header {
+  text-align: left;
+  margin-left: 80px;
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  position: relative;
+}
+
+.carousel-header::after {
+  content: "";
+  display: block;
+  width: 50px;
+  height: 3px;
+  background-color: red;
+  position: absolute;
+  left: 0;
+  bottom: -10px;
+}
+
+.carousel .slide img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.carousel .carousel-item {
+  padding: 10px;
+  background-color: white;
+  border: 1px solid #808080;
+  border-radius: 5px;
+  text-align: left;
+  margin: 0 10px;  
+  box-sizing: border-box;
+}
+
+.carousel .carousel-image {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.carousel .carousel-content {
+  padding: 10px;
+}
+
+.carousel .carousel-content h3 {
+  font-size: 18px;
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+.carousel .carousel-content .rent {
+  color: grey;
+  margin: 10px 0;
+}
+
+.carousel .see-more-btn {
+  border: 1px solid red;
+  color: red;
+  padding: 5px 10px;
+  border-radius: 3px;
+  background-color: white;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.carousel .see-more-btn:hover {
+  background-color: red;
+  color: white;
+}
+
+@media (min-width: 1200px) {
+  .carousel-container {
+    max-width: 1200px;
+  }
+}
+
+@media (max-width: 1199px) and (min-width: 768px) {
+  .carousel-container {
+    max-width: 700px;
+  }
+
+  .carousel-header {
+    margin-left: 20px;
+    font-size: 22px;
+  }
+
+  .carousel .carousel-item {
+    margin: 0 5px;
+  }
+
+  .carousel .carousel-content h3 {
+    font-size: 16px;
+  }
+
+  .carousel .carousel-content .rent {
+    font-size: 14px;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
+  .carousel-container {
+    justify-content: start;
+    max-width: 300px;
+  }
+
+  /* .carousel-header {
+    margin-left: 20px;
+    font-size: 22px;
+  } */
+
+  .carousel .carousel-item {
+    margin: 0 5px;
+  }
+
+  .carousel .carousel-content h3 {
+    font-size: 16px;
+  }
+
+  .carousel .carousel-content .rent {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 480px) {
+  .carousel-container {
+    max-width: 400px;
+  }
+
+  .carousel-header {
+    margin-left: 20px;
+    font-size: 20px;
+  }
+
+  .carousel .carousel-item {
+    margin: 0 5px;
+  }
+
+  .carousel .carousel-content h3 {
+    font-size: 14px;
+  }
+
+  .carousel .carousel-content .rent {
+    font-size: 12px;
+  }
+}
+/* Modal overlay */
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000; /* Ensure it's on top */
+}
+
+/* Modal content */
+.modal-content {
+  background-color: #fff; /* White background for the modal */
+  padding: 20px; /* Some padding for the content */
+  border-radius: 8px; /* Rounded corners */
+  max-width: 500px; /* Maximum width of the modal */
+  width: 90%; /* Responsive width */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Box shadow for a subtle elevation */
+  position: relative;
+  z-index: 1001; /* Above overlay */
+  text-align: center; /* Center the content */
+  max-height: 80vh; /* Limit height to 80% of the viewport height */
+  overflow-y: auto; 
+}
+
+/* Close button */
+.close-btn {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: none;
+  border: none;
+  font-size: 1.5rem;
+  cursor: pointer;
+  color: #333; /* Dark color for visibility */
+}
+
+/* Product image */
+.modal-content img {
+  width: 100%; /* Make image responsive */
+  height: auto; /* Keep aspect ratio */
+  margin-bottom: 20px; /* Space between image and text */
+  border-radius: 4px; /* Slightly rounded corners for the image */
+}
+
+/* Product title */
+.modal-content h2 {
+  font-size: 1.8rem;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+/* Rent details */
+.modal-content p {
+  font-size: 0.9rem;
+  margin-bottom: 15px;
+  color: #666;
+}
+
+/* Description */
+.modal-content p.description {
+  font-size: 1rem;
+  color: #555;
+  line-height: 1.4;
+  margin-top: 10px;
+}
+
+/* Optional: Add animations for modal appearance */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: scale(0.95);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+.modal-content {
+  animation: fadeIn 0.3s ease-in-out;
+}
+/* Book Your Plan Button */
+.book-plan-btn {
+  background-color: #dc3226; /* Green background */
+  color: white; /* White text */
+  padding: 10px 20px; /* Padding for a nice button size */
+  border: none; /* Remove default border */
+  border-radius: 5px; /* Rounded corners */
+  cursor: pointer; /* Pointer cursor on hover */
+  font-size: 1.1rem; /* Slightly larger text */
+  margin-top: 20px; /* Space above the button */
+  transition: background-color 0.3s ease, transform 0.2s ease; /* Smooth transition effects */
+}
+
+.book-plan-btn:hover {
+  background-color: #fe0101; /* Darker green on hover */
+  transform: scale(1.05); /* Slightly enlarge the button on hover */
+}
+
+/* Optional: Add a focus effect for accessibility */
+.book-plan-btn:focus {
+  outline: none; /* Remove default focus outline */
+  box-shadow: 0 0 0 3px rgba(0, 0, 0, 0.5); /* Custom focus outline */
+}

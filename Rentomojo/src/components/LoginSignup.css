@@ -1,0 +1,120 @@
+
+.app {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 60vh; /* Adjust as needed */
+  padding: 10px;
+}
+
+.login-container {
+  display: flex;
+  flex-direction: row; /* Horizontal layout */
+  max-width: 1000px; /* Increased max-width for a larger modal */
+  width: 100%;
+  margin: auto;
+}
+
+.login-image {
+  flex: 1.5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-image img {
+  max-width: 100%;
+  height: auto;
+  width: 400px; /* Larger size for larger screens */
+}
+
+.login-form {
+  flex: 1.5;
+  padding: 20px;
+}
+
+.login-form h2 {
+  margin-bottom: 20px;
+  font-size: 24px; /* Adjusted font size */
+}
+
+.login-form .form-group {
+  margin-bottom: 15px;
+}
+
+.login-form input {
+  width: 100%;
+  padding: 8px; 
+  margin: 5px 0;
+  font-size: 14px; /* Smaller font size */
+}
+
+.login-form button {
+  width: 100%;
+  padding: 8px; 
+  background-color: #EA292D;
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-size: 14px; 
+}
+
+.login-form p {
+  text-align: center;
+  font-size: 14px; 
+}
+
+.login-form a {
+  color: #EA292D;
+}
+
+.msgspan {
+  color: #EA292D;
+  display: block;
+  margin-top: 5px;
+  font-size: 12px; 
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .login-container {
+    flex-direction: column; 
+  }
+
+  .login-image {
+    margin-bottom: 20px;
+    text-align: center; 
+  }
+
+  .login-image img {
+    width: 80%; 
+    max-width: 300px; 
+    height: auto;
+  }
+
+  .login-form {
+    padding: 15px;
+  }
+
+  .login-form h2 {
+    font-size: 20px; 
+  }
+
+  .login-form input {
+    padding: 6px; 
+    font-size: 12px; 
+  }
+
+  .login-form button {
+    padding: 6px;
+    font-size: 12px; 
+  }
+
+  .login-form p {
+    font-size: 12px; 
+  }
+
+  .msgspan {
+    font-size: 12px; 
+  }
+}

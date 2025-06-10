@@ -1,0 +1,43 @@
+.ab {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+.login {
+  transition: background-color 0.3s ease;
+}
+
+.login:hover {
+  background-color: white;
+  color: red;
+  border: 1px solid red;
+}
+
+/* Add this CSS to your 'LoginSignup.css' file or any relevant stylesheet */
+.modal-body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.modal-body p {
+  margin-top: 16px;
+  /* Adjust as needed */
+}
+
+.modal-body .chakra-button {
+  margin-top: 8px;
+  /* Adjust spacing between text and button */
+}
+#buy{
+  width: 100%;
+  padding: 8px; 
+  background-color: #EA292D;
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-size: 14px; 
+}

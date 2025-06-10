@@ -1,0 +1,98 @@
+.hero {
+    width: 100%;
+    margin-top: 4em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 700px;
+    overflow: hidden;
+    background-color: white;
+}
+
+.hero-slider {
+    width: 100%;
+    max-width: 1500px;
+    height: 100%;
+}
+
+.hero img {
+    padding: 1em;
+    border-radius: 2.5em;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.slick-slide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.slick-slide img {
+    width: 100%;
+    height: auto;
+}
+
+.slick-prev,
+.slick-next {
+    width: 140px;
+    height: 140px;
+    z-index: 1;
+}
+
+.slick-prev:before,
+.slick-next:before {
+    font-size: 40px;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.8);
+}
+
+@media (max-width: 430px) {
+    .hero {
+        margin-left: 1.5em;
+        width: 23em;
+        height: 200px;
+    }
+
+    .hero img {
+        /* width: 35em; */
+        padding: 0.5em;
+        border-radius: 0.9em;
+    }
+
+    .slick-prev,
+    .slick-next {
+        width: 80px;
+        height: 80px;
+    }
+
+    .slick-prev:before,
+    .slick-next:before {
+        font-size: 16px;
+    }
+}
+
+@media (min-width: 431px) and (max-width: 768px) {
+    .hero {
+        margin-left: 2em;
+        width: 47%;
+        height: 400px;
+    }
+
+    .hero img {
+        padding: 0.7em;
+        border-radius: 1.5em;
+    }
+
+    .slick-prev,
+    .slick-next {
+        width: 100px;
+        height: 100px;
+    }
+
+    .slick-prev:before,
+    .slick-next:before {
+        font-size: 24px;
+    }
+}

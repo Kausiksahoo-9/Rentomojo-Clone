@@ -1,0 +1,25 @@
+{
+  "users": [
+    {
+      "id": "1721890571887.8223",
+      "name": "abc",
+      "email": "abc@abc",
+      "phnno": "778879799956",
+      "password": "123654789"
+    },
+    {
+      "id": 1722451373521.0186,
+      "name": "abcd",
+      "email": "abc@gmail.com",
+      "phnno": "1234567890",
+      "password": "12345678"
+    },
+    {
+      "id": 1722452425046.0469,
+      "name": "kausik",
+      "email": "kausik@gmail.com",
+      "phnno": "1234567890",
+      "password": "12345678"
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+[
+  {
+    "id": 1,
+    "productimage": "https://p.rmjo.in/productSquare/p2dm6gz4-500x500.jpg",
+    "title": "Oliver 3-Seater Fabric Sofa (Blue)",
+    "rent": "559",
+    "description": "A comfortable and stylish 3-seater fabric sofa, perfect for any living room. The Oliver sofa is upholstered in high-quality blue fabric."
+  },
+  {
+    "id": 2,
+    "productimage": "https://p.rmjo.in/productSquare/605n5qi4-500x500.jpg",
+    "title": "Smart LED TV Android - 32inches",
+    "rent": "849",
+    "description": "Enjoy your favorite shows and movies on this 32-inch Smart LED TV with Android OS, offering a crisp and clear picture quality."
+  },
+  {
+    "id": 3,
+    "productimage": "https://p.rmjo.in/productSquare/caskfrhd-500x500.jpg",
+    "title": "Double Door Fridge (240 Litre)",
+    "rent": "1049",
+    "description": "A spacious double door fridge with a 240-litre capacity, ideal for keeping your food fresh and organized."
+  },
+  {
+    "id": 4,
+    "productimage": "https://p.rmjo.in/productSquare/m00l8vn2-500x500.jpg",
+    "title": "Top Load Washing Machine",
+    "rent": "769",
+    "description": "Efficient top load washing machine with multiple wash programs and a large capacity for all your laundry needs."
+  },
+  {
+    "id": 5,
+    "productimage": "https://p.rmjo.in/productSquare/m9qgitpv-500x500.jpg",
+    "title": "Aurora Wooden Queen Bed (6x5)",
+    "rent": "539",
+    "description": "The Aurora queen bed combines comfort and style with a solid wood frame and a modern design, fitting a 6x5 mattress."
+  },
+  {
+    "id": 6,
+    "productimage": "https://p.rmjo.in/productSquare/xev0b5yi-500x500.jpg",
+    "title": "Induction Cooktop Full Electric",
+    "rent": "149",
+    "description": "A compact and efficient induction cooktop with multiple preset cooking modes and energy-saving features."
+  },
+  {
+    "id": 7,
+    "productimage": "https://p.rmjo.in/productSquare/bwskug14-500x500.jpg",
+    "title": "Single Door Fridge (190 Litre)",
+    "rent": "719",
+    "description": "Keep your food fresh with this 190-litre single door fridge, featuring superior cooling and energy-efficient technology."
+  },
+  {
+    "id": 8,
+    "productimage": "https://p.rmjo.in/productSquare/70rj36m0-500x500.jpg",
+    "title": "Poise Wooden Queen Bed (6x5)",
+    "rent": "549",
+    "description": "The Poise queen bed offers a sturdy metal frame with a solid wood headboard, ensuring durability and style for your bedroom."
+  }
+]
